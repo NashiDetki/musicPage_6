@@ -1,0 +1,99 @@
+@font-face {
+    font-family: "milan";
+    src: url(./milan.ttf);
+}
+@font-face {
+    font-family: "inter";
+src: url('./inter-regular.otf');
+}
+h1{
+    font-size: 14px;
+    text-transform: uppercase;
+    font-family: 'inter', serif;
+    margin-top: 0;
+    margin-bottom: 16px;
+    padding-top: 30px;
+
+}
+
+h2{
+    font-size: 54px;
+    text-transform: uppercase;
+    font-family: 'milan', serif;
+    margin-top: 0;
+    margin-bottom: 24px;
+    color:rgb(185, 44, 44)
+}
+
+a{
+    font-size: 14px;
+    text-decoration: none;
+    display: block;
+    font-family: 'inter',serif;
+    color: black;
+    margin-top: 22px;
+    margin-bottom: 12px;
+    opacity: .6;
+    transition: opacity 0.5s linear;
+
+}
+
+a:hover{
+    opacity: 1;
+}
+
+img{
+    width: 230px;
+    transition: transform 0.5s linear;
+}
+h3{
+    font-size: 30px;
+    text-transform: uppercase;
+}
+img:hover{
+    transform: scale(1.1);
+}
+
+h3{
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-top: 0;
+    font-family: "Inter",sans-serif;
+}
+
+p{
+    text-align: center;
+    font-size: 18px;
+    font-family: "Inter",serif;
+    margin-top: 30px;
+}
+
+.author{
+    font-size: 16px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    opacity: .6;
+}
+
+.year{
+font-size: 14px;
+margin-top: 5px;
+margin-bottom: .6;
+}
+
+
+
+
+
+
+div{
+    border: 1px solid rgb(0, 0, 0);
+    background-color: rgb(198, 52, 255);
+    border-radius: 5px;
+    width: 500px;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    box-shadow: 11px 123px 3003px #5b058d;
+}
